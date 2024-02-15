@@ -23,6 +23,9 @@ numeros.forEach(element => {
         console.log(`El numero ${element} es impar`)
     }
 });
+numeros.forEach((element,i) => {
+    console.log(`El numero ${element} esta en la posicion ${i}`)
+});
 // PARTE 3: FUNCIONES
 console.log('PARTE 3: FUNCIONES')
 function operaciones(mensaje?: string): void{
